@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+/* .sora-<uniquifier> {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    padding: 164px 0 0 0;
+    font-family: "Sora", serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* main */
+.main {
+    max-width: 368px;
+    padding: 16px 16px 20px 16px;
+    border-radius: 12px;
+    box-shadow: 6px 8px 20px #E5EAF0;
+}
+
+/* image */
+.image {
+    max-width: 336px;
+    height: 152px;
+    margin-bottom: 16px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* button */
+.btn {
+    font-size: 0.625rem;
+    padding: 6px 16px;
+    border-radius: 16px;
+    border: none;
+    color: #7C19EE;
+    background-color: #F2EAFD;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 1.125rem;
+    color: #20293A;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 0.875rem;
+    color: #394150;
+    margin-bottom: 20px;
+}
+
+/* div .line {
+    color: #E5EAF0;
+} */
+
+hr {
+    background-color: #E5EAF0;
+    height: 2px;
+    border: 0;
+    /* margin-bottom: 20px; */
+}
+
+.name {
+    font-size: 0.75rem;
+    color: #394150;
+    position: relative;
+    height: 30px;
+    bottom: -25px;
+    margin-bottom: 20px;
+}
