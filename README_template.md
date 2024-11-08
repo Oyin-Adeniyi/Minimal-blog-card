@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://minimal-blog-card-by-oyin.netlify.app/">
       Demo
     </a>
     <span> | </span>
